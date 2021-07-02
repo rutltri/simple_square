@@ -2,7 +2,7 @@
 --track1:Y,0,20000,100,0.1
 --track2:InsideX%,0,100,50,0.01
 --track3:InsideY%,0,100,50,0.01
---dialog:êF/col,color=0xffffff;äÓèÄ(0~2),pos={0,0};
+--dialog:Ëâ≤/col,color=0xffffff;Âü∫Ê∫ñ(0~2),pos={0,0};
 if math.floor(obj.track0) == 0 or math.floor(obj.track1) == 0 then
     obj.setoption("drawtarget","tempbuffer",1,1)
 else
@@ -39,10 +39,10 @@ else
         cy2 = y2 * obj.track3 / 100
     end
     obj.setoption("drawtarget","tempbuffer",obj.track0,obj.track1)
-    obj.load("figure","éläpå`",color,1)
+    obj.load("figure","ÂõõËßíÂΩ¢",color,1)
     obj.drawpoly(x1,y1,0,x2,y1,0,x2,y2,0,x1,y2,0)
     obj.setoption("blend","alpha_sub")
-    obj.load("figure","éläpå`",color,1)
+    obj.load("figure","ÂõõËßíÂΩ¢",color,1)
 
     obj.drawpoly(cx1,cy1,0,cx2,cy1,0,cx2,cy2,0,cx1,cy2,0)
 
